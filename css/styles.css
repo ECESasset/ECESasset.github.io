@@ -395,3 +395,336 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Page Header */
+.page-header {
+    background: linear-gradient(rgba(0, 112, 60, 0.9), rgba(0, 112, 60, 0.9)), url('../images/page-header-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.page-header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+}
+
+/* Mission Vision Section */
+.mission-vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.mission-box, .vision-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.icon-box {
+    width: 70px;
+    height: 70px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.icon-box i {
+    font-size: 2rem;
+}
+
+.mission-box h3, .vision-box h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.mission-box p, .vision-box p {
+    margin-bottom: 15px;
+}
+
+/* Values Section */
+.values-container {
+    margin-top: 50px;
+}
+
+.values-container h3 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.values {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.value-item {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.value-item i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.value-item h4 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Team Members */
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.member {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease;
+}
+
+.member:hover {
+    transform: translateY(-10px);
+}
+
+.member-img {
+    height: 250px;
+    overflow: hidden;
+}
+
+.member-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.member:hover .member-img img {
+    transform: scale(1.1);
+}
+
+.member-info {
+    padding: 20px;
+}
+
+.member-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+.position {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.member-social {
+    margin-top: 15px;
+}
+
+.member-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+.member-social a:hover {
+    transform: translateY(-3px);
+}
+
+/* Organizational Structure */
+.org-structure {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.org-chart {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.org-committees {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.org-committees li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.org-committees i {
+    color: var(--primary-color);
+    font-size: 0.5rem;
+    margin-right: 10px;
+}
+
+/* Faculty Advisers */
+.advisers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.adviser {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.adviser-img {
+    width: 120px;
+    overflow: hidden;
+}
+
+.adviser-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.adviser-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.adviser-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+
+/* Timeline for Achievements */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: var(--primary-color);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.timeline-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: var(--secondary-color);
+    border-radius: 50%;
+    top: 15px;
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+    right: -10px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+    left: -10px;
+}
+
+.timeline-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.timeline-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mission-vision,
+    .org-structure {
+        grid-template-columns: 1fr;
+    }
+    
+    .timeline::after {
+        left: 31px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+    .timeline-item:nth-child(even) {
+        left: 0;
+    }
+    
+    .timeline-item:nth-child(odd) .timeline-dot,
+    .timeline-item:nth-child(even) .timeline-dot {
+        left: 21px;
+    }
+    
+    .adviser {
+        flex-direction: column;
+    }
+    
+    .adviser-img {
+        width: 100%;
+        height: 200px;
+    }
+}
