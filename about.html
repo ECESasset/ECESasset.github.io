@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECES | About Us</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>About Us - ECES | De La Salle University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -12,47 +13,414 @@
         <div class="container">
             <nav class="navbar">
                 <a href="index.html" class="logo">
-                    <img src="assets/images/logo.png" alt="ECES Logo">
+                    <img src="images/eces-logo.png" alt="ECES Logo">
                     <span>ECES | DLSU</span>
                 </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <ul class="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html" class="active">About Us</a></li>
-                    <li><a href="past-events.html">Past Events</a></li>
                     <li><a href="future-events.html">Future Events</a></li>
+                    <li><a href="past-events.html">Past Events</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="resources.html">Resources</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section class="about-section">
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>About ECES</h1>
+            <p>Learn more about the Electronics and Communication Engineering Society at DLSU</p>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section>
         <div class="container">
             <div class="section-title">
-                <h2>About ECES</h2>
-                <p>Our mission, vision, and journey</p>
+                <h2>Our History</h2>
+                <p>The journey of ECES through the years</p>
             </div>
-            <p>The Electronics and Communication Engineering Society (ECES) is dedicated to empowering students in the field of electronics and communication engineering. We organize various events such as workshops, seminars, and competitions that bridge the gap between academic theory and real-world applications.</p>
+            <div class="about-content">
+                <div>
+                    <p>The Electronics and Communication Engineering Society (ECES) was established in 1985 at De La Salle University to provide ECE students with a platform for academic excellence, professional growth, and social development.</p>
+                    <p>Over the decades, ECES has grown from a small group of passionate ECE enthusiasts to one of the most active and respected academic organizations at DLSU. The society has continuously adapted to the evolving technological landscape while maintaining its core mission of nurturing future ECE professionals.</p>
+                    <p>Throughout its history, ECES has organized numerous workshops, seminars, and competitions that have helped thousands of students enhance their technical skills and professional network. The organization has also fostered strong ties with industry partners, creating valuable opportunities for members to bridge the gap between academic learning and industry practices.</p>
+                    <p>Today, ECES continues to uphold its legacy of excellence while embracing innovation and looking toward the future of electronics and communication engineering.</p>
+                </div>
+                <div class="about-img">
+                    <img src="images/eces-history.jpg" alt="ECES History">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission and Vision Section -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Mission & Vision</h2>
+                <p>Our guiding principles</p>
+            </div>
+            <div class="mission-vision">
+                <div class="mission-box">
+                    <div class="icon-box">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Mission</h3>
+                    <p>To foster a community of future engineers equipped with technical expertise, innovative thinking, and professional ethics to address the challenges of a rapidly evolving technological landscape.</p>
+                    <p>ECES is committed to providing members with opportunities for academic enhancement, professional development, and social growth through various activities and events that supplement classroom learning.</p>
+                </div>
+                <div class="vision-box">
+                    <div class="icon-box">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Vision</h3>
+                    <p>To be the premier student organization that nurtures globally competitive electronics and communication engineers, known for innovation, leadership, and service to the community.</p>
+                    <p>We envision ECES as a catalyst for technological advancement and professional excellence, producing graduates who will be at the forefront of the electronics and communication engineering industry.</p>
+                </div>
+            </div>
+            <div class="values-container">
+                <h3 class="text-center">Our Core Values</h3>
+                <div class="values">
+                    <div class="value-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Innovation</h4>
+                        <p>Continuously exploring new ideas and approaches to drive technological advancement.</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-users"></i>
+                        <h4>Collaboration</h4>
+                        <p>Working together toward common goals, embracing diversity of thought and experience.</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-award"></i>
+                        <h4>Excellence</h4>
+                        <p>Pursuing the highest standards in all activities and endeavors.</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-hands-helping"></i>
+                        <h4>Service</h4>
+                        <p>Using our knowledge and skills to benefit the wider community.</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-balance-scale"></i>
+                        <h4>Integrity</h4>
+                        <p>Upholding ethical standards and professional conduct in all interactions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Board Section -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Executive Board</h2>
+                <p>Meet the team behind ECES</p>
+            </div>
+            <div class="team-members">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/president.jpg" alt="ECES President">
+                    </div>
+                    <div class="member-info">
+                        <h3>Juan Dela Cruz</h3>
+                        <p class="position">President</p>
+                        <p>5th Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/vp-internal.jpg" alt="VP Internal">
+                    </div>
+                    <div class="member-info">
+                        <h3>Maria Santos</h3>
+                        <p class="position">Vice President for Internal Affairs</p>
+                        <p>4th Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/vp-external.jpg" alt="VP External">
+                    </div>
+                    <div class="member-info">
+                        <h3>Carlos Reyes</h3>
+                        <p class="position">Vice President for External Affairs</p>
+                        <p>4th Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/secretary.jpg" alt="Secretary">
+                    </div>
+                    <div class="member-info">
+                        <h3>Sophia Lim</h3>
+                        <p class="position">Secretary</p>
+                        <p>3rd Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/treasurer.jpg" alt="Treasurer">
+                    </div>
+                    <div class="member-info">
+                        <h3>Gabriel Tan</h3>
+                        <p class="position">Treasurer</p>
+                        <p>3rd Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/pr-officer.jpg" alt="PR Officer">
+                    </div>
+                    <div class="member-info">
+                        <h3>Isabella Garcia</h3>
+                        <p class="position">Public Relations Officer</p>
+                        <p>3rd Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/projects-head.jpg" alt="Projects Head">
+                    </div>
+                    <div class="member-info">
+                        <h3>Miguel Castro</h3>
+                        <p class="position">Projects Head</p>
+                        <p>4th Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member">
+                    <div class="member-img">
+                        <img src="images/events-coordinator.jpg" alt="Events Coordinator">
+                    </div>
+                    <div class="member-info">
+                        <h3>Andrea Cruz</h3>
+                        <p class="position">Events Coordinator</p>
+                        <p>3rd Year, BS ECE</p>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organizational Structure -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Organizational Structure</h2>
+                <p>How ECES operates</p>
+            </div>
+            <div class="org-structure">
+                <img src="images/org-chart.jpg" alt="ECES Organizational Chart" class="org-chart">
+                <div class="org-description">
+                    <p>ECES follows a structured organizational hierarchy to ensure efficient management and operation of all activities. The Executive Board, led by the President, oversees the overall direction and management of the organization.</p>
+                    <p>Various committees focusing on different aspects of the organization's activities report to specific board members. These committees include:</p>
+                    <ul class="org-committees">
+                        <li><i class="fas fa-circle"></i> Academic Affairs Committee</li>
+                        <li><i class="fas fa-circle"></i> Events and Activities Committee</li>
+                        <li><i class="fas fa-circle"></i> Projects and Technical Development Committee</li>
+                        <li><i class="fas fa-circle"></i> Public Relations and Marketing Committee</li>
+                        <li><i class="fas fa-circle"></i> Finance and Resources Committee</li>
+                        <li><i class="fas fa-circle"></i> Membership and Alumni Relations Committee</li>
+                    </ul>
+                    <p>The organization also maintains strong connections with the ECE Department, the College of Engineering, and various industry partners to enhance its programs and activities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Advisers -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Faculty Advisers</h2>
+                <p>Guiding our organization</p>
+            </div>
+            <div class="advisers">
+                <div class="adviser">
+                    <div class="adviser-img">
+                        <img src="images/adviser1.jpg" alt="Faculty Adviser">
+                    </div>
+                    <div class="adviser-info">
+                        <h3>Dr. Ramon Gonzales</h3>
+                        <p class="position">Associate Professor, ECE Department</p>
+                        <p>Dr. Gonzales specializes in Telecommunications and has been with DLSU for over 15 years. He has been the primary adviser of ECES since 2018.</p>
+                    </div>
+                </div>
+                <div class="adviser">
+                    <div class="adviser-img">
+                        <img src="images/adviser2.jpg" alt="Faculty Adviser">
+                    </div>
+                    <div class="adviser-info">
+                        <h3>Engr. Victoria Mendoza</h3>
+                        <p class="position">Assistant Professor, ECE Department</p>
+                        <p>Engr. Mendoza's expertise is in Microelectronics and Embedded Systems. She guides ECES in its technical projects and industry partnerships.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Achievements</h2>
+                <p>Recognition of our excellence</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2024</h3>
+                        <p>1st Place, National ECE Project Competition</p>
+                        <p>Outstanding Student Organization Award, DLSU</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2023</h3>
+                        <p>2nd Place, IEEE Regional Robotics Competition</p>
+                        <p>Most Active Academic Organization, College of Engineering</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2022</h3>
+                        <p>Best Student Technical Paper, ECE Conference</p>
+                        <p>Community Service Excellence Award</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2021</h3>
+                        <p>Innovation Award, University Student Projects Showcase</p>
+                        <p>Outstanding Leadership Recognition</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2020</h3>
+                        <p>Best Virtual Academic Event</p>
+                        <p>Outstanding Adaptation to Remote Learning Award</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Be Part of Our Story</h2>
+            <p>Join ECES today and contribute to our continuing legacy of excellence in electronics and communication engineering at DLSU.</p>
+            <a href="membership.html" class="btn btn-secondary">Apply for Membership</a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-section">
-                <h3>ECES | DLSU</h3>
-                <p>De La Salle University | Manila, Philippines</p>
-                <ul class="footer-links">
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                </ul>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>ECES | DLSU</h3>
+                    <p>Electronics and Communication Engineering Society at De La Salle University, Manila.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="future-events.html">Future Events</a></li>
+                        <li><a href="past-events.html">Past Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>More</h3>
+                    <ul class="footer-links">
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>2401 Taft Avenue, Manila</li>
+                        <li>Philippines 1004</li>
+                        <li>Email: eces@dlsu.edu.ph</li>
+                        <li>Phone: (02) 8536-0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Electronics and Communication Engineering Society. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="assets/js/scripts.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
