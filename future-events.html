@@ -3,40 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECES | Future Events</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Future Events - ECES | De La Salle University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="logo">
-            <h1>ECES</h1>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/eces-logo.png" alt="ECES Logo">
+                    <span>ECES | DLSU</span>
+                </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="future-events.html" class="active">Future Events</a></li>
+                    <li><a href="past-events.html">Past Events</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="past-events.html">Past Events</a></li>
-                <li><a href="future-events.html">Future Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main>
-        <section class="future-events-section">
-            <h2>Upcoming Events</h2>
-            <div class="event-card">
-                <h3>Robotics Workshop</h3>
-                <p>April 20, 2025</p>
-                <a href="#">Register Now</a>
-            </div>
-        </section>
-    </main>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Future Events</h1>
+            <p>Stay updated on the upcoming events organized by ECES</p>
+        </div>
+    </section>
 
+    <!-- Future Events Section -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Upcoming Events</h2>
+                <p>Join us for these exciting opportunities</p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/event-workshop.jpg" alt="Workshop">
+                    </div>
+                    <div class="card-content">
+                        <h3>PCB Design Workshop</h3>
+                        <p>Learn the fundamentals of PCB design using industry-standard software.</p>
+                        <p><strong>Date:</strong> April 15, 2025</p>
+                        <p><strong>Venue:</strong> Velasco Building, Room 502</p>
+                        <a href="registration.html" class="btn">Register Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/event-seminar.jpg" alt="Seminar">
+                    </div>
+                    <div class="card-content">
+                        <h3>IoT Systems Seminar</h3>
+                        <p>Discover the latest trends and applications in Internet of Things technology.</p>
+                        <p><strong>Date:</strong> April 28, 2025</p>
+                        <p><strong>Venue:</strong> Yuchengco Hall, Conference Room</p>
+                        <a href="registration.html" class="btn">Register Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/event-competition.jpg" alt="Competition">
+                    </div>
+                    <div class="card-content">
+                        <h3>Circuit Design Challenge</h3>
+                        <p>Put your skills to the test in our annual circuit design competition.</p>
+                        <p><strong>Date:</strong> May 10, 2025</p>
+                        <p><strong>Venue:</strong> Gokongwei Hall</p>
+                        <a href="registration.html" class="btn">Register Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-30">
+                <a href="all-events.html" class="btn">View All Events</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Join ECES Today</h2>
+            <p>Become part of a community that fosters innovation, academic excellence, and professional growth in the field of electronics and communication engineering.</p>
+            <a href="membership.html" class="btn btn-secondary">Apply for Membership</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 ECES | All Rights Reserved</p>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>ECES | DLSU</h3>
+                    <p>Electronics and Communication Engineering Society at De La Salle University, Manila.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="future-events.html">Future Events</a></li>
+                        <li><a href="past-events.html">Past Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>More</h3>
+                    <ul class="footer-links">
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>2401 Taft Avenue, Manila</li>
+                        <li>Philippines 1004</li>
+                        <li>Email: eces@dlsu.edu.ph</li>
+                        <li>Phone: (02) 8536-0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Electronics and Communication Engineering Society. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
