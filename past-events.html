@@ -3,43 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ECES | Past Events</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Past Events - ECES | De La Salle University</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="logo">
-            <h1>ECES</h1>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/eces-logo.png" alt="ECES Logo">
+                    <span>ECES | DLSU</span>
+                </a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="future-events.html">Future Events</a></li>
+                    <li><a href="past-events.html" class="active">Past Events</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="past-events.html">Past Events</a></li>
-                <li><a href="future-events.html">Future Events</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main>
-        <section class="past-events-section">
-            <h2>Past Events</h2>
-            <div class="event-card">
-                <h3>Workshop on Circuit Design</h3>
-                <p>March 15, 2025</p>
-            </div>
-            <div class="event-card">
-                <h3>Electronics Seminar: Future Trends</h3>
-                <p>February 20, 2025</p>
-            </div>
-        </section>
-    </main>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Past Events</h1>
+            <p>Take a look at the impactful events we’ve organized in the past</p>
+        </div>
+    </section>
 
+    <!-- Past Events Section -->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2>Past Events</h2>
+                <p>Relive the experiences and milestones achieved by ECES</p>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/past-robotics.jpg" alt="Past Event - Robotics Showcase">
+                    </div>
+                    <div class="card-content">
+                        <h3>Robotics Showcase 2024</h3>
+                        <p>ECES members demonstrated their innovative robotic projects to faculty and industry partners.</p>
+                        <p><strong>Date:</strong> January 20, 2024</p>
+                        <p><strong>Venue:</strong> Velasco Hall, DLSU</p>
+                        <a href="event-details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/past-smart-campus.jpg" alt="Past Event - Smart Campus Initiative">
+                    </div>
+                    <div class="card-content">
+                        <h3>Smart Campus Initiative</h3>
+                        <p>A collaborative project to implement IoT solutions throughout the DLSU campus.</p>
+                        <p><strong>Date:</strong> November 15, 2023</p>
+                        <p><strong>Venue:</strong> DLSU Campus</p>
+                        <a href="event-details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/past-industry-talk.jpg" alt="Past Event - Industry Talk Series">
+                    </div>
+                    <div class="card-content">
+                        <h3>Industry Talk Series</h3>
+                        <p>Leading professionals shared insights on career opportunities in telecommunications.</p>
+                        <p><strong>Date:</strong> September 25, 2023</p>
+                        <p><strong>Venue:</strong> Yuchengco Hall, DLSU</p>
+                        <a href="event-details.html" class="btn">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more past events here as necessary -->
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Join ECES Today</h2>
+            <p>Become part of a community that fosters innovation, academic excellence, and professional growth in the field of electronics and communication engineering.</p>
+            <a href="membership.html" class="btn btn-secondary">Apply for Membership</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 ECES | All Rights Reserved</p>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>ECES | DLSU</h3>
+                    <p>Electronics and Communication Engineering Society at De La Salle University, Manila.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="future-events.html">Future Events</a></li>
+                        <li><a href="past-events.html">Past Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>More</h3>
+                    <ul class="footer-links">
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>2401 Taft Avenue, Manila</li>
+                        <li>Philippines 1004</li>
+                        <li>Email: eces@dlsu.edu.ph</li>
+                        <li>Phone: (02) 8536-0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Electronics and Communication Engineering Society. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
 </html>
