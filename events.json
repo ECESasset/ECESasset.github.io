@@ -1,0 +1,39 @@
+{
+    "future_events": [
+      {
+        "title": "PCB Design Workshop",
+        "description": "Learn the fundamentals of PCB design using industry-standard software.",
+        "date": "April 15, 2025",
+        "venue": "Velasco Building, Room 502",
+        "image": "images/event-workshop.jpg",
+        "link": "registration.html"
+      },
+      {
+        "title": "IoT Systems Seminar",
+        "description": "Discover the latest trends and applications in Internet of Things technology.",
+        "date": "April 28, 2025",
+        "venue": "Yuchengco Hall, Conference Room",
+        "image": "images/event-seminar.jpg",
+        "link": "registration.html"
+      }
+    ],
+    "past_events": [
+      {
+        "title": "Robotics Showcase 2024",
+        "description": "ECES members demonstrated their innovative robotic projects to faculty and industry partners.",
+        "date": "January 20, 2024",
+        "venue": "Velasco Hall, DLSU",
+        "image": "images/past-robotics.jpg",
+        "link": "event-details.html"
+      },
+      {
+        "title": "Smart Campus Initiative",
+        "description": "A collaborative project to implement IoT solutions throughout the DLSU campus.",
+        "date": "November 15, 2023",
+        "venue": "DLSU Campus",
+        "image": "images/past-smart-campus.jpg",
+        "link": "event-details.html"
+      }
+    ]
+  }
+  
